@@ -4,14 +4,14 @@ const sampleBooks = [
     author: 'John Doe',
     genre: 'Fiction',
     publicationYear: 2000,
-    summary: 'Sampe book one summary',
+    summary: 'Sample book one summary',
   },
   {
     title: 'Sample Book 2',
     author: 'Jane Doe',
     genre: 'Non-Fiction',
     publicationYear: 2002,
-    summary: 'Sampe book two summary',
+    summary: 'Sample book two summary',
   },
 ];
 
