@@ -27,11 +27,21 @@ app.get('/api/books', async (req, res) => {
   }
 });
 
-// get request for all books
+// get request for all users
 app.get('/api/users', async (req, res) => {
     try {
       const users = await User.find();
       res.json(users);
+    } catch (err) {
+      res.status(500).send(err);
+    }
+  });
+
+// get request for all reviews
+app.get('/api/reviews', async (req, res) => {
+    try {
+      const users = await User.find();
+      res.json(reviews);
     } catch (err) {
       res.status(500).send(err);
     }
@@ -47,6 +57,17 @@ app.get('/api/books/:id', async (req, res) => {
     res.status(500).send(err);
   }
 });
+
+// get request for a specific user
+app.get('/api/users/:id', async (req, res) => {
+    try {
+      const user = await Book.findById(req.params.id);
+      if (!user) return res.status(404).send('User not found');
+      res.json(user);
+    } catch (err) {
+      res.status(500).send(err);
+    }
+  });
 
 // create a new book
 app.post('/api/books', async (req, res) => {

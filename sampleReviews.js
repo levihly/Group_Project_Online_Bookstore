@@ -1,4 +1,3 @@
-// sampleReviews.js
 const sampleReviews = [
     {
       bookTitle: "Sample Book 1", 
