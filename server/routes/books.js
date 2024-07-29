@@ -5,7 +5,7 @@ const books = require("../config/books.json");
 
 router.get("/books", async (req, res) => {
   try {
-    const search = req.query.search || "";
+    let search = req.query.search || "";
     let sort = req.query.sort || "rating";
     let genre = req.query.genre || "All";
 
@@ -42,8 +42,16 @@ router.get("/books", async (req, res) => {
       sortBy[sort[0]] = "asc";
     }
 
-    // get books
-    const books = await Book.find({ title: { "$regex": search, "$options": "i" }})
+    // get books based on search
+    const books = await Book.find({
+      $or: [
+        {"title": { "$regex": search, "$options": "i" }},
+        {"author": { "$regex": search, "$options": "i" }},
+        {"genre": { "$regex": search, "$options": "i" }},
+        {"summary": { "$regex": search, "$options": "i" }},
+        {"keywords": { "$regex": search, "$options": "i" }},
+      ]
+    })
       .where("genre")
       .in([...genre])
       .sort(sortBy);
@@ -74,6 +82,7 @@ const insertBooks = async () => {
   }
 };
 
+// run to update database
 insertBooks()
   .then((docs) => console.log(docs))
   .catch((err) => console.log(err));

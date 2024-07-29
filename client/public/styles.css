@@ -26,3 +26,11 @@ div.book-list {
   margin-left: 300px;
   margin-right: 300px;
 }
+
+input.search {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 300px;
+}

@@ -6,7 +6,8 @@
     "genre": [ "Fantasy", "Fiction", "Horror" ],
     "year": 1915,
     "summary": "“The Metamorphosis” (original German title: “Die Verwandlung”) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.",
-    "rating": 3.9
+    "rating": 3.9,
+    "keywords": [ "bug", "turned", "into" ]
   },
   {
     "title": "Hellboy, Vol. 1: Seed of Destruction",
@@ -15,7 +16,8 @@
     "genre": [ "Fantasy", "Fiction", "Graphic Novels", "Horror" ],
     "year": 2004,
     "summary": "When strangeness threatens to engulf the world, a strange man will come to save it. Sent to investigate a mystery with supernatural overtones, Hellboy discovers the secrets of his own origins, and his link to the Nazi occultists who promised Hitler a final solution in the form of a demonic avatar.",
-    "rating": 4.2
+    "rating": 4.2,
+    "keywords": [ "volume" ]
   },
   {
     "title": "Diary of a Wimpy Kid, Book 1",
@@ -24,7 +26,8 @@
     "genre": [ "Fiction", "Graphic Novels" ],
     "year": 2007,
     "summary": "Being a kid can really stink. And no one knows this better than Greg. He finds himself thrust into middle school, where undersized weaklings share the hallways with kids who are taller, meaner, and already shaving. Greg is happy to have Rowley Jefferson, his sidekick, along for the ride. But when Rowley's star starts to rise, Greg tries to use his best friend's newfound popularity to his own advantage, kicking off a chain of events that will test their friendship in hilarious fashion.\n\nThe hazards of growing up before you're ready are uniquely revealed through words and drawings as Greg records them in his diary. But as Greg says: “Just don’t expect me to be all “Dear Diary” this and “Dear Diary” that.”\n\nLuckily for us, what Greg Heffley says he won’t do and what he actually does are two very different things.",
-    "rating": 4.0
+    "rating": 4.0,
+    "keywords": [  ]
   },
   {
     "title": "Fahrenheit 451",
@@ -33,7 +36,8 @@
     "genre": [ "Fiction", "Sci-fi" ],
     "year": 1953,
     "summary": "Guy Montag is a fireman. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television “family.” But when he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people didn’t live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television, Montag begins to question everything he has ever known.",
-    "rating": 4.0
+    "rating": 4.0,
+    "keywords": [ "burning" ]
   },
   {
     "title": "Gone Girl",
@@ -42,7 +46,8 @@
     "genre": [ "Fiction", "Mystery", "Thriller" ],
     "year": 2012,
     "summary": "Who are you?\n\nWhat have we done to each other?\n\nThese are the questions Nick Dunne finds himself asking on the morning of his fifth wedding anniversary when his wife Amy suddenly disappears. The police suspect Nick. Amy's friends reveal that she was afraid of him, that she kept secrets from him. He swears it isn't true. A police examination of his computer shows strange searches. He says they weren't made by him. And then there are the persistent calls on his mobile phone.\n\nSo what did happen to Nick's beautiful wife?",
-    "rating": 4.1
+    "rating": 4.1,
+    "keywords": [ "missing" ]
   },
   {
     "title": "The Hunger Games",
@@ -51,7 +56,8 @@
     "genre": [ "Action", "Fantasy", "Fiction", "Sci-fi", "Young Adult" ],
     "year": 2008,
     "summary": "Could you survive on your own in the wild, with every one out to make sure you don't live to see the morning?\n\nIn the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV.\n\nSixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to dead before—and survival, for her, is second nature. Without really meaning to, she becomes a contender. But if she is to win, she will have to start making choices that weight survival against humanity and life against love.",
-    "rating": 4.3
+    "rating": 4.3,
+    "keywords": [ "dystopian", "rich" ]
   },
   {
     "title": "Pride and Prejudice",
@@ -60,7 +66,8 @@
     "genre": [ "Classics", "Fiction", "Romance" ],
     "year": 1813,
     "summary": "Since its immediate success in 1813, Pride and Prejudice has remained one of the most popular novels in the English language. Jane Austen called this brilliant work “her own darling child” and its vivacious heroine, Elizabeth Bennet, “as delightful a creature as ever appeared in print.” The romantic clash between the opinionated Elizabeth and her proud beau, Mr. Darcy, is a splendid performance of civilized sparring. And Jane Austen's radiant wit sparkles as her characters dance a delicate quadrille of flirtation and intrigue, making this book the most superb comedy of manners of Regency England.",
-    "rating": 4.3
+    "rating": 4.3,
+    "keywords": [ "love", "historical" ]
   },
   {
     "title": "To Kill a Mockingbird",
@@ -69,7 +76,8 @@
     "genre": [ "Classics", "Fiction" ],
     "year": 1960,
     "summary": "The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it. “To Kill A Mockingbird” became both an instant bestseller and a critical success when it was first published in 1960. It went on to win the Pulitzer Prize in 1961 and was later made into an Academy Award-winning film, also a classic.\n\nCompassionate, dramatic, and deeply moving, “To Kill A Mockingbird” takes readers to the roots of human behavior - to innocence and experience, kindness and cruelty, love and hatred, humor and pathos. Now with over 18 million copies in print and translated into forty languages, this regional story by a young Alabama woman claims universal appeal. Harper Lee always considered her book to be a simple love story. Today it is regarded as a masterpiece of American literature.",
-    "rating": 4.3
+    "rating": 4.3,
+    "keywords": [  ]
   },
   {
     "title": "The Book Thief",
@@ -78,7 +86,8 @@
     "genre": [ "Fiction", "Young Adult" ],
     "year": 2005,
     "summary": "It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will be busier still.\n\nBy her brother's graveside, Liesel's life is changed when she picks up a single object, partially hidden in the snow. It is The Gravedigger's Handbook, left behind there by accident, and it is her first act of book thievery. So begins a love affair with books and words, as Liesel, with the help of her accordian-playing foster father, learns to read. Soon she is stealing books from Nazi book-burnings, the mayor's wife's library, wherever there are books to be found.\n\nBut these are dangerous times. When Liesel's foster family hides a Jew in their basement, Liesel's world is both opened up, and closed down.\n\nIn superbly crafted writing that burns with intensity, award-winning author Markus Zusak has given us one of the most enduring stories of our time.",
-    "rating": 4.4
+    "rating": 4.4,
+    "keywords": [ "historical" ]
   },
   {
     "title": "The Fault in Our Stars",
@@ -87,7 +96,8 @@
     "genre": [ "Fiction", "Romance", "Young Adult" ],
     "year": 2012,
     "summary": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel's story is about to be completely rewritten.\n\nInsightful, bold, irreverent, and raw, The Fault in Our Stars is award-winning author John Green's most ambitious and heartbreaking work yet, brilliantly exploring the funny, thrilling, and tragic business of being alive and in love.",
-    "rating": 4.1
+    "rating": 4.1,
+    "keywords": [  ]
   },
   {
     "title": "The Picture of Dorian Gray",
@@ -96,7 +106,8 @@
     "genre": [ "Classics", "Fantasy", "Fiction", "Horror"],
     "year": 1890,
     "summary": "Oscar Wilde’s only novel is the dreamlike story of a young man who sells his soul for eternal youth and beauty.\n\nIn this celebrated work Wilde forged a devastating portrait of the effects of evil and debauchery on a young aesthete in late-19th-century England. Combining elements of the Gothic horror novel and decadent French fiction, the book centers on a striking premise: As Dorian Gray sinks into a life of crime and gross sensuality, his body retains perfect youth and vigor while his recently painted portrait grows day by day into a hideous record of evil, which he must keep hidden from the world. For over a century, this mesmerizing tale of horror and suspense has enjoyed wide popularity. It ranks as one of Wilde's most important creations and among the classic achievements of its kind.",
-    "rating": 4.1
+    "rating": 4.1,
+    "keywords": [ "historical", "lgbt" ]
   },
   {
     "title": "I'm Glad My Mom Died",
@@ -105,7 +116,8 @@
     "genre": [ "Nonfiction" ],
     "year": 2022,
     "summary": "A heartbreaking and hilarious memoir by iCarly and Sam & Cat star Jennette McCurdy about her struggles as a former child actor—including eating disorders, addiction, and a complicated relationship with her overbearing mother—and how she retook control of her life.\n\nJennette McCurdy was six years old when she had her first acting audition. Her mother’s dream was for her only daughter to become a star, and Jennette would do anything to make her mother happy. So she went along with what Mom called “calorie restriction,” eating little and weighing herself five times a day. She endured extensive at-home makeovers while Mom chided, “Your eyelashes are invisible, okay? You think Dakota Fanning doesn’t tint hers?” She was even showered by Mom until age sixteen while sharing her diaries, email, and all her income.\n\nIn I’m Glad My Mom Died, Jennette recounts all this in unflinching detail—just as she chronicles what happens when the dream finally comes true. Cast in a new Nickelodeon series called iCarly , she is thrust into fame. Though Mom is ecstatic, emailing fan club moderators and getting on a first-name basis with the paparazzi (“Hi Gale!”), Jennette is riddled with anxiety, shame, and self-loathing, which manifest into eating disorders, addiction, and a series of unhealthy relationships. These issues only get worse when, soon after taking the lead in the iCarly spinoff Sam & Cat alongside Ariana Grande, her mother dies of cancer. Finally, after discovering therapy and quitting acting, Jennette embarks on recovery and decides for the first time in her life what she really wants.\n\nTold with refreshing candor and dark humor, I’m Glad My Mom Died is an inspiring story of resilience, independence, and the joy of shampooing your own hair.",
-    "rating": 4.5
+    "rating": 4.5,
+    "keywords": [  ]
   },
   {
     "title": "Chainsaw Man, Vol. 1: Dog and Chainsaw",
@@ -114,7 +126,8 @@
     "genre": [ "Action", "Fiction", "Graphic Novels", "Horror", "Manga"],
     "year": 2020,
     "summary": "Denji’s a poor young man who’ll do anything for money, even hunting down devils with his pet devil-dog Pochita. He’s a simple man with simple dreams, drowning under a mountain of debt. But his sad life gets turned upside down one day when he’s betrayed by someone he trusts. Now with the power of a devil inside him, Denji’s become a whole new man—Chainsaw Man!",
-    "rating": 4.4
+    "rating": 4.4,
+    "keywords": [ "chainsawman" ]
   },
   {
     "title": "The Giving Tree",
@@ -123,7 +136,8 @@
     "genre": [ "Children's", "Classics", "Fiction" ],
     "year": 1964,
     "summary": "“Once there was a tree...and she loved a little boy.”\n\nSo begins a story of unforgettable perception, beautifully written and illustrated by the gifted and versatile Shel Silverstein.\n\nEvery day the boy would come to the tree to eat her apples, swing from her branches, or slide down her trunk...and the tree was happy. But as the boy grew older he began to want more from the tree, and the tree gave and gave and gave.\n\nThis is a tender story, touched with sadness, aglow with consolation. Shel Silverstein has created a moving parable for readers of all ages that offers an affecting interpretation of the gift of giving and a serene acceptance of another's capacity to love in return.",
-    "rating": 4.4
+    "rating": 4.4,
+    "keywords": [  ]
   },
   {
     "title": "The Perks of Being a Wallflower",
@@ -132,7 +146,8 @@
     "genre": [ "Fiction", "Romance", "Young Adult" ],
     "year": 1999,
     "summary": "standing on the fringes of life...\n\noffers a unique perspective. But there comes a time to see\n\nwhat it looks like from the dance floor.\n\nThis haunting novel about the dilemma of passivity vs. passion marks the stunning debut of a provocative new voice in contemporary fiction: The Perks of Being A WALLFLOWER\n\nThis is the story of what it's like to grow up in high school. More intimate than a diary, Charlie's letters are singular and unique, hilarious and devastating. We may not know where he lives. We may not know to whom he is writing. All we know is the world he shares. Caught between trying to live his life and trying to run from it puts him on a strange course through uncharted territory. The world of first dates and mixed tapes, family dramas and new friends. The world of sex, drugs, and The Rocky Horror Picture Show, when all one requires is that the perfect song on that perfect drive to feel infinite.\n\nThrough Charlie, Stephen Chbosky has created a deeply affecting coming-of-age story, a powerful novel that will spirit you back to those wild and poignant roller coaster days known as growing up.",
-    "rating": 4.2
+    "rating": 4.2,
+    "keywords": [  ]
   },
   {
     "title": "Gone with the Wind",
@@ -141,7 +156,8 @@
     "genre": [ "Classics", "Fiction", "Romance" ],
     "year": 1936,
     "summary": "Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.",
-    "rating": 4.3
+    "rating": 4.3,
+    "keywords": [  ]
   },
   {
     "title": "Wuthering Heights",
@@ -150,7 +166,8 @@
     "genre": [ "Classics", "Fiction", "Romance" ],
     "year": 1847,
     "summary": "At the centre of this novel is the passionate love between Catherine Earnshaw and Heathcliff - recounted with such emotional intensity that a plain tale of the Yorkshire moors acquires the depth and simplicity of ancient tragedy.\n\nThis best-selling Norton Critical Edition is based on the 1847 first edition of the novel. For the Fourth Edition, the editor has collated the 1847 text with several modern editions and has corrected a number of variants, including accidentals. The text is accompanied by entirely new explanatory annotations.\n\nNew to the fourth Edition are twelve of Emily Bronte's letters regarding the publication of the 1847 edition of Wuthering Heights as well as the evolution of the 1850 edition, prose and poetry selections by the author, four reviews of the novel, and poetry selections by the author, four reviews of the novel, and Edward Chitham's insightful and informative chronology of the creative process behind the beloved work.\n\nFive major critical interpretations of Wuthering Heights are included, three of them new to the Fourth Edition. A Stuart Daley considers the importance of chronology in the novel. J. Hillis Miller examines Wuthering Heights's problems of genre and critical reputation. Sandra M. Gilbert assesses the role of Victorian Christianity plays in the novel, while Martha Nussbaum traces the novel's romanticism. Finally, Lin Haire-Sargeant scrutinizes the role of Heathcliff in film adaptations of Wuthering Heights.\n\nA Chronology and updated Selected Bibliography are also included.",
-    "rating": 3.9
+    "rating": 3.9,
+    "keywords": [ "historical" ]
   },
   {
     "title": "The Lightning Thief",
@@ -159,7 +176,8 @@
     "genre": [ "Adventure", "Fantasy", "Fiction", "Young Adult" ],
     "year": 2005,
     "summary": "Percy Jackson is a good kid, but he can't seem to focus on his schoolwork or control his temper. And lately, being away at boarding school is only getting worse - Percy could have sworn his pre-algebra teacher turned into a monster and tried to kill him. When Percy's mom finds out, she knows it's time that he knew the truth about where he came from, and that he go to the one place he'll be safe. She sends Percy to Camp Half Blood, a summer camp for demigods (on Long Island), where he learns that the father he never knew is Poseidon, God of the Sea. Soon a mystery unfolds and together with his friends—one a satyr and the other the demigod daughter of Athena - Percy sets out on a quest across the United States to reach the gates of the Underworld (located in a recording studio in Hollywood) and prevent a catastrophic war between the gods.",
-    "rating": 4.3
+    "rating": 4.3,
+    "keywords": [ "mythology" ]
   },
   {
     "title": "The Color of Magic",
@@ -167,8 +185,9 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1407111017i/34497.jpg",
     "genre": [ "Adventure", "Fantasy", "Fiction", "Sci-fi" ],
     "year": 1983,
-    "summary": "In a world supported on the back of a giant turtle (sex unknown), a gleeful, explosive, wickedly eccentric expedition sets out. There's an avaricious but inept wizard, a naive tourist whose luggage moves on hundreds of dear little legs, dragons who only exist if you believe in them, and of course THE EDGE of the planet...",
-    "rating": 4.0
+    "summary": "The first novel in the hilarious and irreverent Discworld series from New York Timesbestselling author Terry Pratchett.\n\nIn a world supported on the back of a giant turtle (sex unknown), a gleeful, explosive, wickedly eccentric expedition sets out. There's an avaricious but inept wizard, a naive tourist whose luggage moves on hundreds of dear little legs, dragons who only exist if you believe in them, and of course THE EDGE of the planet...",
+    "rating": 4.0,
+    "keywords": [  ]
   },
   {
     "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
@@ -177,6 +196,7 @@
     "genre": [ "Nonfiction" ],
     "year": 2018,
     "summary": "No matter your goals, Atomic Habits offers a proven framework for improving—every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.\n\nIf you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights.\n\nClear is known for his ability to distill complex topics into simple behaviors that can be easily applied to daily life and work. Here, he draws on the most proven ideas from biology, psychology, and neuroscience to create an easy-to-understand guide for making good habits inevitable and bad habits impossible. Along the way, readers will be inspired and entertained with true stories from Olympic gold medalists, award-winning artists, business leaders, life-saving physicians, and star comedians who have used the science of small habits to master their craft and vault to the top of their field.\n\nLearn how to:\n- Make time for new habits (even when life gets crazy);\n- Overcome a lack of motivation and willpower;\n- Design your environment to make success easier;\n- Get back on track when you fall off course;\n...and much more.\n\nAtomic Habits will reshape the way you think about progress and success, and give you the tools and strategies you need to transform your habits--whether you are a team looking to win a championship, an organization hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, or achieve any other goal.",
-    "rating": 4.4
+    "rating": 4.4,
+    "keywords": [  ]
   }
 ]

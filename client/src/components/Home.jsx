@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 import BookList from "./BookList";
+import Search from "./Search";
 
 const base_url = process.env.REACT_APP_API_URL;
 
@@ -29,6 +30,7 @@ function Home() {
   return (
     <div>
       <h1>Welcome to the bookstore!</h1>
+      <Search setSearch={(search) => setSearch(search)} />
 
       <div>
         <BookList books={book.books ? book.books : []} />

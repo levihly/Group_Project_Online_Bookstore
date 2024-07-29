@@ -8,6 +8,7 @@ const bookSchema = new mongoose.Schema({
   year: { type: Number },
   summary: { type: String },
   rating: { type: Number },
+  keywords: { type: [String] },
 });
 
 module.exports = mongoose.model('book', bookSchema);

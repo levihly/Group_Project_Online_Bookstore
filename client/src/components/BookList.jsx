@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 
-const BookList = ({ books }) => {
+function BookList({ books }) {
 
 	return (
     <div className="book-list">
@@ -17,6 +17,6 @@ const BookList = ({ books }) => {
     </Grid>
     </div>
 	);
-};
+}
 
 export default BookList;
