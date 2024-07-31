@@ -2,9 +2,10 @@ const router = require("express").Router();
 const Book = require("../models/Book");
 const books = require("../config/books.json");
 
-
+// gets all of the book data from the database
 router.get("/books", async (req, res) => {
   try {
+    // gets input values for search, sort, genre, otherwise sets defaults
     let search = req.query.search || "";
     let sort = req.query.sort || "rating";
     let genre = req.query.genre || "All";
@@ -28,21 +29,26 @@ router.get("/books", async (req, res) => {
       "Young Adult",
     ];
 
-    // search functionality
+    // genre filter
     genre === "All"
       ? (genre = [...genres])
       : (genre = req.query.genre.split(","));
-    req.query.sort ? (sort = req.query.sort.split(",")) : (sort = [sort]);
 
-    // sorting order
+    // gets sort method and order
+    req.query.sort
+      ? (sort = req.query.sort.split(","))
+      : (sort = [sort]);
+
+    // sorting order variable
     let sortBy = {};
+
     if (sort[1]) {
       sortBy[sort[0]] = sort[1];
     } else {
       sortBy[sort[0]] = "asc";
     }
 
-    // get books based on search
+    // finds books from database based on search
     const books = await Book.find({
       $or: [
         {"title": { "$regex": search, "$options": "i" }},
@@ -52,17 +58,19 @@ router.get("/books", async (req, res) => {
         {"keywords": { "$regex": search, "$options": "i" }},
       ]
     })
+      // for filtering and sorting
       .where("genre")
       .in([...genre])
       .sort(sortBy);
 
-
+    // creates response with no error, array of genres, and array of books
     const response = {
       error: false,
       genreOptions: genres,
       books,
     };
 
+    // sends response as json to api
     res.status(200).json(response);
   } catch (err) {
     console.log(err);
@@ -70,11 +78,13 @@ router.get("/books", async (req, res) => {
   }
 });
 
+
+// updates database with books from .json
 const insertBooks = async () => {
   try {
     // deletes old Database
     await Book.deleteMany({});
-
+    // inserts from .json
     const docs = await Book.insertMany(books);
     return Promise.resolve(docs);
   } catch (err) {

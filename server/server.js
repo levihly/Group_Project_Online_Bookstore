@@ -6,6 +6,7 @@ const app = express();
 const dbConnect = require("./dbConnect");
 const bookRoutes = require("./routes/books");
 
+// connects to DB
 dbConnect();
 
 app.use(express.json());

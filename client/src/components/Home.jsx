@@ -6,6 +6,7 @@ import Search from "./Search";
 const base_url = process.env.REACT_APP_API_URL;
 
 function Home() {
+  // default values
   const [book, setBooks] = useState({});
   const [sort, setSort] = useState({ sort: "rating", order: "desc" });
   const [genreFilter, setGenreFilter] = useState([]);
