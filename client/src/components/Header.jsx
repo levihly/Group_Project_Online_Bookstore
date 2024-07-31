@@ -14,7 +14,7 @@ const Header = () => {
         <h1>Book Store</h1>
       </div>
       <Navigation />
-      <Link to="/all-books">All Books</Link> 
+      
       <div className="search-bar">
         <FontAwesomeIcon icon={faMagnifyingGlass} />
         <input type="text" placeholder="Search by title, author, keywords" />
