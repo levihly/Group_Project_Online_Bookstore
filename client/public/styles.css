@@ -1,36 +1,119 @@
-* {
-  padding: 0;
+body {
   margin: 0;
-  box-sizing: border-box;
-}
-html {
-  font-family: "Georgia", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  text-align: center;
-  padding-top: 50px;
+/* Header CSS*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #75ccf5;
 }
 
-img.book-cover {
-  display: block;
-  max-width:200px;
-  max-height:200px;
-  width: auto;
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 70px; /* Adjust the width as needed */
+  padding-right: 20px;
   height: auto;
-  padding-bottom: 5px;
 }
 
-div.book-list {
-  margin-top: 100px;
-  margin-left: 300px;
-  margin-right: 300px;
+
+.search-bar {
+  position: relative;
 }
 
-input.search {
-  display: block;
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 400px; /* Increase the width of the input */
+  margin: 0 auto; /* Center the input horizontally */
+  padding-left: 30px;
+}
+
+.search-bar .fa-magnifying-glass {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Navigation UI */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Best Seller UI */
+
+.best-sellers {
+  display: flex;
+  background-color: rgb(36, 180, 224);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bestsellers-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.book-covers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.book-cover {
+  width: 300px; /* Adjust image size as needed */
+  margin: 20px; /* Add margin for spacing */
+}
+
+.bestsellers-text h2 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.buy-now-button {
+  background-color: #e4c412;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  border-radius: 15px; /* Added missing colon */
+  cursor: pointer;
+}
+
+/* container used to best selling section */
+.container {
+  max-width: 1700px; /* Adjust the width as needed */
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* Footer UI */
+footer {
   text-align: center;
   margin: 0 auto;
-  margin-top: 20px;
-  width: 300px;
 }
