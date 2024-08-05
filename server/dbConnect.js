@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // connecting to DB
-const dbConnect = () => {
+const dbConnect = async () => {
   mongoose.connect(process.env.DB);
 
   mongoose.connection.on("connected", () => {
