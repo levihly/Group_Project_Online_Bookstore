@@ -18,7 +18,7 @@ function GenreFilter({ genreOptions, genreFilter, setGenreFilter }) {
       <p>Genre:</p>
       <Grid container spacing={1}>
         {genreOptions.map((genre) => (
-          <Grid item md={1}>
+          <Grid item xs={6}>
             <input
               type="checkbox"
               value={genre}
