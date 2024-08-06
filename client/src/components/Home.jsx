@@ -6,6 +6,9 @@ import Sort from "./Sort";
 import GenreFilter from "./GenreFilter";
 import RatingFilter from "./RatingFilter";
 
+import Header from "./Header";
+import Footer from "./Footer";
+
 
 const base_url = process.env.REACT_APP_API_URL;
 
@@ -35,8 +38,10 @@ function Home() {
 
   return (
     <div>
-      <h1>Welcome to the bookstore!</h1>
-      <Search setSearch={(search) => setSearch(search)} />
+      <header>
+        <Header />
+        <Search setSearch={(search) => setSearch(search)} />
+      </header>
       <Sort sort={sort} setSort={(sort) => setSort(sort)} />
       <GenreFilter
         genreOptions={book.genreOptions ? book.genreOptions : []}
@@ -45,6 +50,7 @@ function Home() {
       <div>
         <BookList books={book.books ? book.books : []} />
       </div>
+      <Footer />
     </div>
   );
 }

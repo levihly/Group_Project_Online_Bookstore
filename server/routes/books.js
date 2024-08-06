@@ -1,6 +1,7 @@
 const router = require("express").Router();
 const Book = require("../models/Book");
 const books = require("../config/books.json");
+var mongoose = require('mongoose');
 
 // gets all of the book data from the database
 router.get("/books", async (req, res) => {
@@ -75,6 +76,20 @@ router.get("/books", async (req, res) => {
   } catch (err) {
     console.log(err);
     res.status(500).json({ error: true, message: "Internal error" });
+  }
+});
+
+// gets specific book
+router.get("/books/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const response = await Book.findById(id);
+
+    return res.status(200).json(response);
+  } catch (err) {
+    console.log(err);
+    res.status(500).send({ message: err.message });
   }
 });
 
