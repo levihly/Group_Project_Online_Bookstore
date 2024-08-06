@@ -108,9 +108,9 @@ const insertBooks = async () => {
 };
 
 // run to update database
-insertBooks()
-  .then((docs) => console.log(docs))
-  .catch((err) => console.log(err));
+// insertBooks()
+//   .then((docs) => console.log(docs))
+//   .catch((err) => console.log(err));
 
 
 module.exports = router;

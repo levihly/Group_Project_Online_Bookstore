@@ -9,8 +9,8 @@ function BookList({ books }) {
 			<Grid container spacing={3}>
 	  			{books.map((book) => (
 	          <Grid item md={3}>
-							<Link to={`/details/${book._id}`}>
-		            <img className="book-cover" src={book.image}/>
+							<Link className="book-link" to={`/details/${book._id}`}>
+		            <img className="book-cover-grid" src={book.image}/>
 		      			<p><i>{book.title}</i></p>
 		            <p>by {book.author}</p>
 		      			<p>{book.rating}</p>

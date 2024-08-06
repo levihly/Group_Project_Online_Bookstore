@@ -4,15 +4,10 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Georgia", serif;
+  font-family: "Poppins", sans-serif;
   white-space: pre-line;
 }
 
-
-body {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-}
 
 /* Header CSS*/
 header {
@@ -130,11 +125,6 @@ footer {
 }
 
 
-h1 {
-  text-align: center;
-  padding-top: 50px;
-}
-
 div.filter {
   max-width: fit-content;
   margin-left: auto;
@@ -148,7 +138,7 @@ div.center {
   margin-right: auto;
 }
 
-img.book-cover {
+img.book-cover-grid {
   display: block;
   max-width:200px;
   max-height:200px;
@@ -169,4 +159,44 @@ input.search {
   margin: 0 auto;
   margin-top: 20px;
   width: 300px;
+}
+
+img.book-cover-details {
+  max-width: 350px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  float: right;
+}
+
+.details-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.details-container-child-left {
+  flex: 2;
+  padding-right: 50px;
+}
+
+.details-container-child-right {
+  flex: 3;
+}
+
+.book-link {
+  text-decoration: none;
+  color: black;
+}
+
+.details-summary {
+  margin: 100px;
+}
+
+.details-summary-text {
+  border-width: 2px;
+  border-style: solid;
+  border-color: gray;
+  padding: 10px;
+  margin-top: 5px;
 }
