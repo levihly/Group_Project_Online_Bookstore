@@ -5,6 +5,7 @@ const app = express();
 
 const dbConnect = require("./dbConnect");
 const bookRoutes = require("./routes/books");
+const reviewRoutes = require('./routes/reviewRoutes');
 
 // connects to DB
 dbConnect();
@@ -12,6 +13,7 @@ dbConnect();
 app.use(express.json());
 app.use(cors());
 app.use("/api", bookRoutes);
+app.use('/api', reviewRoutes);
 
 
 const port = process.env.PORT || 3001;
