@@ -15,19 +15,22 @@ function GenreFilter({ genreOptions, genreFilter, setGenreFilter }) {
 
   return (
     <div className="filter">
-      <p>Genre:</p>
-      <Grid container spacing={1}>
+      <p className="filter-sort-header"><b>Filter by</b></p>
+      <p><b>Genre:</b></p>
+      <div className="genre-filter-list">
         {genreOptions.map((genre) => (
-          <Grid item xs={6}>
-            <input
-              type="checkbox"
-              value={genre}
-              onChange={onChange}
-            />
-            {genre}
-          </Grid>
+          <p>
+            <label>
+              <input
+                type="checkbox"
+                value={genre}
+                onChange={onChange}
+              />
+              {genre}
+            </label>
+          </p>
         ))}
-      </Grid>
+      </div>
     </div>
   )
 }

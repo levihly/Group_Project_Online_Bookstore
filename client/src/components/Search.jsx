@@ -5,7 +5,6 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 function Search({ setSearch }) {
   return (
     <div className="search-bar">
-      <FontAwesomeIcon icon={faMagnifyingGlass} />
       <input
       className="search"
       type="text"

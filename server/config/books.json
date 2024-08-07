@@ -185,7 +185,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1407111017i/34497.jpg",
     "genre": [ "Adventure", "Fantasy", "Fiction", "Sci-fi" ],
     "year": 1983,
-    "summary": "The first novel in the hilarious and irreverent Discworld series from New York Timesbestselling author Terry Pratchett.\n\nIn a world supported on the back of a giant turtle (sex unknown), a gleeful, explosive, wickedly eccentric expedition sets out. There's an avaricious but inept wizard, a naive tourist whose luggage moves on hundreds of dear little legs, dragons who only exist if you believe in them, and of course THE EDGE of the planet...",
+    "summary": "The first novel in the hilarious and irreverent Discworld series from New York Times bestselling author Terry Pratchett.\n\nIn a world supported on the back of a giant turtle (sex unknown), a gleeful, explosive, wickedly eccentric expedition sets out. There's an avaricious but inept wizard, a naive tourist whose luggage moves on hundreds of dear little legs, dragons who only exist if you believe in them, and of course THE EDGE of the planet...",
     "rating": 4.0,
     "keywords": [  ]
   },
@@ -198,5 +198,205 @@
     "summary": "No matter your goals, Atomic Habits offers a proven framework for improving—every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.\n\nIf you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights.\n\nClear is known for his ability to distill complex topics into simple behaviors that can be easily applied to daily life and work. Here, he draws on the most proven ideas from biology, psychology, and neuroscience to create an easy-to-understand guide for making good habits inevitable and bad habits impossible. Along the way, readers will be inspired and entertained with true stories from Olympic gold medalists, award-winning artists, business leaders, life-saving physicians, and star comedians who have used the science of small habits to master their craft and vault to the top of their field.\n\nLearn how to:\n- Make time for new habits (even when life gets crazy);\n- Overcome a lack of motivation and willpower;\n- Design your environment to make success easier;\n- Get back on track when you fall off course;\n...and much more.\n\nAtomic Habits will reshape the way you think about progress and success, and give you the tools and strategies you need to transform your habits--whether you are a team looking to win a championship, an organization hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, or achieve any other goal.",
     "rating": 4.4,
     "keywords": [  ]
+  },
+  {
+    "title": "Daydream",
+    "author": "Hannah Grace",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1699948241i/198647119.jpg",
+    "genre": [ "Fiction", "Romance" ],
+    "year": 2024,
+    "summary": "The new novel from the #1 Sunday Times bestselling author of Icebreaker and Wildfire...\n\nWhen procrastination lands him in a difficult class with his least favorite professor, Henry Turner knows he’s going to have to work extra hard to survive his junior year of college. And now with his new role as ice hockey captain – which he didn’t even want – Henry absolutely cannot fail. Enter Halle Jacobs, a fellow junior who finds herself befriended by Henry when he accidentally crashes her book club.\n\nHalle may not have the romantic pursuits of her favorite fictional leads, but she’s an academic superstar, and when she hears about Henry’s problems with his class reading material, she offers to help. But being a private tutor isn’t exactly ideal given her own studies, job and the novel she’s trying to write. New experiences are the key to beating her writer’s block, though, and Henry’s promising to be the one to give them to her.\n\nThey just need to stick to their rulebook. Oh, and not fall in love.",
+    "rating": 4.3,
+    "keywords": [  ]
+  },
+  {
+    "title": "Twilight",
+    "author": "Stephenie Meyer",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700522826i/41865.jpg",
+    "genre": [ "Fantasy", "Fiction", "Romance", "Young Adult" ],
+    "year": 2005,
+    "summary": "About three things I was absolutely positive.\n\nFirst, Edward was a vampire.\n\nSecond, there was a part of him - and I didn't know how dominant that part might be - that thirsted for my blood.\n\nAnd third, I was unconditionally and irrevocably in love with him.\n\nDeeply seductive and extraordinarily suspenseful, “Twilight” is a love story with bite.",
+    "rating": 3.7,
+    "keywords": [ "vampires", "supernatural" ]
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1325861570i/170448.jpg",
+    "genre": [ "Classics", "Fiction" ],
+    "year": 1945,
+    "summary": "A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned –a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible.\n\nWhen Animal Farm was first published, Stalinist Russia was seen as its target. Today it is devastatingly clear that wherever and whenever freedom is attacked, under whatever banner, the cutting clarity and savage comedy of George Orwell’s masterpiece have a meaning and message still ferociously fresh.",
+    "rating": 4.0,
+    "keywords": [ "dystopian", "philosophy" ]
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1557343311i/10210.jpg",
+    "genre": [ "Classics", "Fiction" ],
+    "year": 1847,
+    "summary": "A gothic masterpiece of tempestuous passions and dark secrets, Charlotte Brontë's “Jane Eyre” is edited with an introduction and notes by Stevie Davis in Penguin Classics.\n\nCharlotte Brontë tells the story of orphaned Jane Eyre, who grows up in the home of her heartless aunt, enduring loneliness and cruelty. This troubled childhood strengthens Jane's natural independence and spirit - which prove necessary when she finds employment as a governess to the young ward of Byronic, brooding Mr Rochester. As her feelings for Rochester develop, Jane gradually uncovers Thornfield Hall's terrible secret, forcing her to make a choice. Should she stay with Rochester and live with the consequences, or follow her convictions - even if it means leaving the man she loves? A novel of intense power and intrigue, “Jane Eyre” dazzled readers with its passionate depiction of a woman's search for equality and freedom.",
+    "rating": 4.2,
+    "keywords": [ "gothic", "historical" ]
+  },
+  {
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1367545443i/157993.jpg",
+    "genre": [ "Children's", "Fantasy", "Fiction" ],
+    "year": 1943,
+    "summary": "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. “Please,” asks the stranger, “draw me a sheep.” And the pilot realizes that when life's events are too difficult to understand, there is no choice but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readers.\n\nFew stories are as widely read and as universally cherished by children and adults alike as “The Little Prince”, presented here in a stunning new translation with carefully restored artwork. The definitive edition of a worldwide classic, it will capture the hearts of readers of all ages.",
+    "rating": 4.3,
+    "keywords": [  ]
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1490528560i/4671.jpg",
+    "genre": [ "Classics", "Fiction", "Romance" ],
+    "year": 1925,
+    "summary": "“The Great Gatsby”, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted “gin was the national drink and sex the national obsession,” it is an exquisitely crafted tale of America in the 1920s.\n\n“The Great Gatsby” is one of the great classics of twentieth-century literature.",
+    "rating": 3.9,
+    "keywords": [ "historical" ]
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1382846449i/7144.jpg",
+    "genre": [ "Classics", "Fiction" ],
+    "year": 1866,
+    "summary": "Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator, Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his neck. Only Sonya, a downtrodden sex worker, can offer the chance of redemption.",
+    "rating": 4.3,
+    "keywords": [ "russian", "crime" ]
+  },
+  {
+    "title": "Divergent",
+    "author": "Veronica Roth",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1618526890i/13335037.jpg",
+    "genre": [ "Fantasy", "Fiction", "Sci-fi", "Young Adult" ],
+    "year": 2011,
+    "summary": "In Beatrice Prior's dystopian Chicago world, society is divided into five factions, each dedicated to the cultivation of a particular virtue—Candor (the honest), Abnegation (the selfless), Dauntless (the brave), Amity (the peaceful), and Erudite (the intelligent). On an appointed day of every year, all sixteen-year-olds must select the faction to which they will devote the rest of their lives. For Beatrice, the decision is between staying with her family and being who she really is—she can't have both. So she makes a choice that surprises everyone, including herself.\n\nDuring the highly competitive initiation that follows, Beatrice renames herself Tris and struggles alongside her fellow initiates to live out the choice they have made. Together they must undergo extreme physical tests of endurance and intense psychological simulations, some with devastating consequences. As initiation transforms them all, Tris must determine who her friends really are—and where, exactly, a romance with a sometimes fascinating, sometimes exasperating boy fits into the life she's chosen. But Tris also has a secret, one she's kept hidden from everyone because she's been warned it can mean death. And as she discovers unrest and growing conflict that threaten to unravel her seemingly perfect society, she also learns that her secret might help her save those she loves . . . or it might destroy her.",
+    "rating": 4.1,
+    "keywords": [ "dystopian" ]
+  },
+  {
+    "title": "Memoirs of a Geisha",
+    "author": "Arthur Golden",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1409595968i/929.jpg",
+    "genre": [ "Fiction", "Romance" ],
+    "year": 1997,
+    "summary": "A literary sensation and runaway bestseller, this brilliant novel presents with seamless authenticity and exquisite lyricism the true confessions of one of Japan's most celebrated geisha.\n\nIn “Memoirs of a Geisha,” we enter a world where appearances are paramount; where a girl's virginity is auctioned to the highest bidder; where women are trained to beguile the most powerful men; and where love is scorned as illusion. It is a unique and triumphant work of fiction - at once romantic, erotic, suspenseful - and completely unforgettable.",
+    "rating": 4.2,
+    "keywords": [ "historical", "asian", "adult" ]
+  },
+  {
+    "title": "Attack on Titan, Vol. 1",
+    "author": "Hajime Isayama",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1432712438i/13154150.jpg",
+    "genre": [ "Action", "Fantasy", "Fiction", "Graphic Novels", "Horror", "Manga" ],
+    "year": 2010,
+    "summary": "The Desperate Battle Begins!\n\nFor the past century, what's left of mankind has hidden in a giant, three-walled city, trapped in fear of the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming humankind, but the sudden appearance of an enormous Titan is about to change everything...",
+    "rating": 4.5,
+    "keywords": [ "dystopian" ]
+  },
+  {
+    "title": "呪術廻戦 1 [Jujutsu Kaisen 1]",
+    "author": "Gege Akutami",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1537971660i/42075170.jpg",
+    "genre": [ "Action", "Fantasy", "Fiction", "Graphic Novels", "Horror", "Manga" ],
+    "year": 2018,
+    "summary": "類稀な身体能力を持つ高校生・虎杖悠仁は、病床に伏せる祖父の見舞いを日課にしていた。だがある日学校に眠る「呪物」の封印が解かれ、化物が現れてしまう。取り残された先輩を救う為、校舎へ乗り込む虎杖だが!?",
+    "rating": 4.5,
+    "keywords": [ "supernatural", "paranormal", "shonen" ]
+  },
+  {
+    "title": "SPY×FAMILY 1",
+    "author": "Tatsuya Endo",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1562168651l/52961491.jpg",
+    "genre": [ "Action", "Fiction", "Graphic Novels", "Manga", "Romance" ],
+    "year": 2019,
+    "summary": "名門校潜入のために「家族」を作れと命じられた凄腕スパイの〈黄昏〉。だが、彼が出会った“娘”は心を読む超能力者! “妻”は暗殺者で!? 互いに正体を隠した仮初め家族が、受験と世界の危機に立ち向かう痛快ホームコメディ!!",
+    "rating": 4.5,
+    "keywords": [ "humor", "comedy" ]
+  },
+  {
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1638425885i/16299.jpg",
+    "genre": [ "Classics", "Fiction", "Mystery", "Thriller" ],
+    "year": 1939,
+    "summary": "First, there were ten—a curious assortment of strangers summoned as weekend guests to a little private island off the coast of Devon. Their host, an eccentric millionaire unknown to all of them, is nowhere to be found. All that the guests have in common is a wicked past they're unwilling to reveal—and a secret that will seal their fate. For each has been marked for murder. A famous nursery rhyme is framed and hung in every room of the mansion:\n\n“Ten little boys went out to dine; One choked his little self and then there were nine. Nine little boys sat up very late; One overslept himself and then there were eight. Eight little boys traveling in Devon; One said he'd stay there then there were seven. Seven little boys chopping up sticks; One chopped himself in half and then there were six. Six little boys playing with a hive; A bumblebee stung one and then there were five. Five little boys going in for law; One got in Chancery and then there were four. Four little boys going out to sea; A red herring swallowed one and then there were three. Three little boys walking in the zoo; A big bear hugged one and then there were two. Two little boys sitting in the sun; One got frizzled up and then there was one. One little boy left all alone; He went out and hanged himself and then there were none.”\n\nWhen they realize that murders are occurring as described in the rhyme, terror mounts. One by one they fall prey. Before the weekend is out, there will be none. Who has choreographed this dastardly scheme? And who will be left to tell the tale? Only the dead are above suspicion.",
+    "rating": 4.3,
+    "keywords": [ "crime", "murder mystery", "adult", "suspense" ]
+  },
+  {
+    "title": "Murder on the Orient Express",
+    "author": "Agatha Christie",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1486131451i/853510.jpg",
+    "genre": [ "Classics", "Fiction", "Mystery", "Thriller" ],
+    "year": 1934,
+    "summary": "Just after midnight, a snowdrift stops the famous Orient Express in its tracks as it travels through the mountainous Balkans. The luxurious train is surprisingly full for the time of the year but, by the morning, it is one passenger fewer. An American tycoon lies dead in his compartment, stabbed a dozen times, his door locked from the inside.\n\nOne of the passengers is none other than detective Hercule Poirot. On vacation.\n\nIsolated and with a killer on board, Poirot must identify the murderer—in case he or she decides to strike again.",
+    "rating": 4.2,
+    "keywords": [ "crime", "adult" ]
+  },
+  {
+    "title": "The Women",
+    "author": "Kristin Hannah",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1689788358i/127305853.jpg",
+    "genre": [ "Fiction" ],
+    "year": 2024,
+    "summary": "Women can be heroes. When twenty-year-old nursing student Frances “Frankie” McGrath hears these words, it is a revelation. Raised in the sun-drenched, idyllic world of Southern California and sheltered by her conservative parents, she has always prided herself on doing the right thing. But in 1965, the world is changing, and she suddenly dares to imagine a different future for herself. When her brother ships out to serve in Vietnam, she joins the Army Nurse Corps and follows his path.\n\nAs green and inexperienced as the men sent to Vietnam to fight, Frankie is over- whelmed by the chaos and destruction of war. Each day is a gamble of life and death, hope and betrayal; friendships run deep and can be shattered in an instant. In war, she meets—and becomes one of—the lucky, the brave, the broken, and the lost.\n\nBut war is just the beginning for Frankie and her veteran friends. The real battle lies in coming home to a changed and divided America, to angry protesters, and to a country that wants to forget Vietnam.\n\n“The Women” is the story of one woman gone to war, but it shines a light on all women who put themselves in harm’s way and whose sacrifice and commitment to their country has too often been forgotten. A novel about deep friendships and bold patriotism, “The Women” is a richly drawn story with a memorable heroine whose idealism and courage under fire will come to define an era.",
+    "rating": 4.6,
+    "keywords": [ "historical", "war", "adult", "feminism" ]
+  },
+  {
+    "title": "Ender’s Game",
+    "author": "Orson Scott Card",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408303130i/375802.jpg",
+    "genre": [ "Classics", "Fiction", "Sci-fi", "Young Adult" ],
+    "year": 1985,
+    "summary": "Andrew “Ender” Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast.\n\nBut Ender is not the only result of the experiment. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway almost as long. Ender's two older siblings, Peter and Valentine, are every bit as unusual as he is, but in very different ways. While Peter was too uncontrollably violent, Valentine very nearly lacks the capability for violence altogether. Neither was found suitable for the military's purpose. But they are driven by their jealousy of Ender, and by their inbred drive for power. Peter seeks to control the political process, to become a ruler. Valentine's abilities turn more toward the subtle control of the beliefs of commoner and elite alike, through powerfully convincing essays. Hiding their youth and identities behind the anonymity of the computer networks, these two begin working together to shape the destiny of Earth-an Earth that has no future at all if their brother Ender fails.",
+    "rating": 4.3,
+    "keywords": [ "dystopian", "war" ]
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
+    "genre": [ "Adventure", "Classics", "Fantasy", "Fiction", "Sci-fi" ],
+    "year": 1965,
+    "summary": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...\n\nWhen House Atreides is betrayed, the destruction of Paul’s family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad’Dib, he will bring to fruition humankind’s most ancient and unattainable dream.",
+    "rating": 4.3,
+    "keywords": [ "space", "adult" ]
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1528206996i/38746485.jpg",
+    "genre": [ "Nonfiction" ],
+    "year": 2018,
+    "summary": "In a life filled with meaning and accomplishment, Michelle Obama has emerged as one of the most iconic and compelling women of our era. As First Lady of the United States of America—the first African American to serve in that role—she helped create the most welcoming and inclusive White House in history, while also establishing herself as a powerful advocate for women and girls in the U.S. and around the world, dramatically changing the ways that families pursue healthier and more active lives, and standing with her husband as he led America through some of its most harrowing moments. Along the way, she showed us a few dance moves, crushed Carpool Karaoke, and raised two down-to-earth daughters under an unforgiving media glare.\n\nIn her memoir, a work of deep reflection and mesmerizing storytelling, Michelle Obama invites readers into her world, chronicling the experiences that have shaped her—from her childhood on the South Side of Chicago to her years as an executive balancing the demands of motherhood and work, to her time spent at the world’s most famous address. With unerring honesty and lively wit, she describes her triumphs and her disappointments, both public and private, telling her full story as she has lived it—in her own words and on her own terms. Warm, wise, and revelatory, Becoming is the deeply personal reckoning of a woman of soul and substance who has steadily defied expectations—and whose story inspires us to do the same.",
+    "rating": 4.5,
+    "keywords": [ "biography", "politics" ]
+  },
+  {
+    "title": "Crying in H Mart",
+    "author": "Michelle Zauner",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601937850i/54814676.jpg",
+    "genre": [ "Nonfiction" ],
+    "year": 2021,
+    "summary": "A memoir about growing up Korean American, losing her mother, and forging her own identity.\n\nMichelle Zauner tells of growing up one of the few Asian American kids at her school in Eugene, Oregon; of struggling with her mother’s particular, high expectations of her; of a painful adolescence; of treasured months spent in her grandmother’s tiny apartment in Seoul, where she and her mother would bond, late at night, over heaping plates of food.\n\nAs she grew up, moving to the East Coast for college, finding work in the restaurant industry, and performing gigs with her fledgling band—and meeting the man who would become her husband—her Koreanness began to feel ever more distant, even as she found the life she wanted to live. It was her mother’s diagnosis of terminal cancer, when Michelle was twenty-five, that forced a reckoning with her identity and brought her to reclaim the gifts of taste, language, and history her mother had given her.",
+    "rating": 4.3,
+    "keywords": [ "biography", "adult", "cooking" ]
+  },
+  {
+    "title": "Delicious in Dungeon, Vol. 1",
+    "author": "Ryoko Kui",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1492956010i/32856010.jpg",
+    "genre": [ "Adventure", "Fantasy", "Fiction", "Graphic Novels", "Manga" ],
+    "year": 2015,
+    "summary": "When young adventurer Laios and his company are attacked and soundly thrashed by a dragon deep in a dungeon, the party loses all its money and provisions...and a member! They're eager to go back and save her, but there is just one problem: If they set out with no food or coin to speak of, they're sure to starve on the way! But Laios comes up with a brilliant idea: “Let's eat the monsters!” Slimes, basilisks, and even dragons...none are safe from the appetites of these dungeon-crawling gourmands!",
+    "rating": 4.3,
+    "keywords": [ "cooking", "humor", "comedy" ]
   }
 ]

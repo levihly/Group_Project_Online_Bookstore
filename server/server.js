@@ -5,6 +5,7 @@ const app = express();
 
 const dbConnect = require("./dbConnect");
 const bookRoutes = require("./routes/books");
+const reviewRoutes = require('./routes/reviewRoutes');
 
 // connects to DB
 dbConnect();

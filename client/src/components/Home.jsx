@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
+import { Link } from 'react-router-dom';
 import BookList from "./BookList";
 import Search from "./Search";
 import Sort from "./Sort";
 import GenreFilter from "./GenreFilter";
-import RatingFilter from "./RatingFilter";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -17,7 +17,6 @@ function Home() {
   const [book, setBooks] = useState({});
   const [sort, setSort] = useState({ sort: "rating", order: "desc" });
   const [genreFilter, setGenreFilter] = useState([]);
-  const [ratingFilter, setRatingFilter] = useState([]);
   const [search, setSearch] = useState("");
 
   useEffect(() => {
@@ -42,13 +41,22 @@ function Home() {
         <Header />
         <Search setSearch={(search) => setSearch(search)} />
       </header>
-      <Sort sort={sort} setSort={(sort) => setSort(sort)} />
-      <GenreFilter
-        genreOptions={book.genreOptions ? book.genreOptions : []}
-        genreFilter={genreFilter}
-  			setGenreFilter={(genre) => setGenreFilter(genre)} />
-      <div>
-        <BookList books={book.books ? book.books : []} />
+      <div className="imgbox">
+        <Link to={`/details/66b2b5c0d990985b6f4d505e`}>
+          <img className="center-fit" src="https://i.imgur.com/EeRWZMh.png" />
+        </Link>
+      </div>
+      <div className="flex-container">
+        <div className="flex-child-sort-filter">
+          <GenreFilter
+            genreOptions={book.genreOptions ? book.genreOptions : []}
+            genreFilter={genreFilter}
+      			setGenreFilter={(genre) => setGenreFilter(genre)} />
+        </div>
+        <div className="flex-child-book-list">
+          <Sort sort={sort} setSort={(sort) => setSort(sort)} />
+          <BookList books={book.books ? book.books : []}/>
+        </div>
       </div>
       <Footer />
     </div>

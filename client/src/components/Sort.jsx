@@ -17,12 +17,9 @@ function Sort({ sort, setSort }) {
 	};
 
   return (
-    <div className="center">
-      Sort by:
-      <select
-        // defaultValue={sort.sort}
-        onChange={onSortChange}
-      >
+    <div className="sort">
+      <p className="filter-sort-header"><b>Sort by: </b>
+      <select onChange={onSortChange}>
         <option value="rating">Rating</option>
         <option value="title">Title</option>
         <option value="author">Author</option>
@@ -31,7 +28,7 @@ function Sort({ sort, setSort }) {
       <button onClick={onOrderChange}>
         {(sort.order === "desc") ? <ArrowDown/> : <ArrowUp/>}
       </button>
-
+      </p>
     </div>
   )
 }

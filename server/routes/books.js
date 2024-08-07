@@ -16,7 +16,6 @@ router.get("/books", async (req, res) => {
       "Adventure",
       "Children's",
       "Classics",
-      "Drama",
       "Fantasy",
       "Fiction",
       "Graphic Novels",

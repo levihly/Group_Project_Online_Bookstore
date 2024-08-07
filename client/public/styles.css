@@ -1,11 +1,11 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Poppins", sans-serif;
-  white-space: pre-line;
 }
 
 
@@ -38,99 +38,68 @@ header {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 20px;
-  width: 400px; /* Increase the width of the input */
+  width: 300px; /* Increase the width of the input */
   margin: 0 auto; /* Center the input horizontally */
   padding-left: 30px;
-}
-
-.search-bar .fa-magnifying-glass {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
-}
-
-/* Navigation UI */
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav li a {
-  text-decoration: none;
-  color: #333;
-}
-
-/* Best Seller UI */
-
-.best-sellers {
-  display: flex;
-  background-color: rgb(36, 180, 224);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.bestsellers-text {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  text-align: left;
-}
-
-.book-covers {
-  display: flex;
-  justify-content: space-around;
-}
-
-.book-cover {
-  width: 300px; /* Adjust image size as needed */
-  margin: 20px; /* Add margin for spacing */
-}
-
-.bestsellers-text h2 {
-  font-size: 100px;
-  font-weight: bold;
-}
-
-.buy-now-button {
-  background-color: #e4c412;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  background-image: url('https://i.imgur.com/3QX5RLc.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 5%;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 15px; /* Added missing colon */
-  cursor: pointer;
 }
 
-/* container used to best selling section */
-.container {
-  max-width: 1700px; /* Adjust the width as needed */
-  margin: 0 auto;
-  padding: 50px;
-}
 
 /* Footer UI */
 footer {
   text-align: center;
+  padding: 10px;
   margin: 0 auto;
 }
 
 
 div.filter {
   max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
 }
+
+.filter-sort-header {
+  padding-bottom: 10px;
+  color: #999999;
+  display: inline-block;
+}
+
+.genre-filter-list {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.genre-filter-list input {
+  margin-right: 10px;
+}
+
+.sort select {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  appearance: none;
+  padding: 5px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  color: #1F51FF;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.sort button {
+  color: #1F51FF;
+  background-color: transparent;
+  border: none;
+  margin-left: -5px;
+  display: inline-block;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
 
 div.center {
   max-width: fit-content;
@@ -144,21 +113,12 @@ img.book-cover-grid {
   max-height:200px;
   width: auto;
   height: auto;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  filter: drop-shadow(5px 5px 1px #333333);
 }
 
 div.book-list {
   margin-top: 25px;
-  margin-left: 300px;
-  margin-right: 300px;
-}
-
-input.search {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 300px;
 }
 
 img.book-cover-details {
@@ -169,19 +129,27 @@ img.book-cover-details {
   float: right;
 }
 
-.details-container {
+.flex-container {
   display: flex;
   flex-wrap: wrap;
   margin: 50px;
 }
 
-.details-container-child-left {
+.flex-child-image {
   flex: 2;
   padding-right: 50px;
 }
 
-.details-container-child-right {
+.flex-child-details {
   flex: 3;
+}
+
+.flex-child-sort-filter {
+  flex: 1;
+}
+
+.flex-child-book-list {
+  flex: 4;
 }
 
 .book-link {
@@ -199,4 +167,108 @@ img.book-cover-details {
   border-color: gray;
   padding: 10px;
   margin-top: 5px;
+  white-space: pre-line;
+}
+
+/* Reviews */
+.reviews {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.reviews h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.review-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.review-rating {
+  font-weight: bold;
+}
+
+.review-user {
+  font-style: italic;
+}
+
+.review-text {
+  margin-top: 10px;
+}
+
+.review-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.review-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.review-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.review-form button:hover {
+  background: #0056b3;
+}
+
+.imgbox {
+  margin-top: 10px;
+  display: grid;
+  height: 100%;
+}
+
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+.genre-tag {
+  background-color: #d3d3d3;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 }

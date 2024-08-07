@@ -10,7 +10,11 @@ function BookList({ books }) {
 	  			{books.map((book) => (
 	          <Grid item md={3}>
 							<Link className="book-link" to={`/details/${book._id}`}>
-		            <img className="book-cover-grid" src={book.image}/>
+		            <img
+									className="book-cover-grid"
+									src={book.image}
+									alt={book.title}
+								/>
 		      			<p><i>{book.title}</i></p>
 		            <p>by {book.author}</p>
 		      			<p>{book.rating}</p>
