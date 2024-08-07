@@ -54,7 +54,10 @@ function ShowBookDetails() {
         <div className="flex-child-details">
           <h1>{book.title}</h1>
           <h2>by {book.author}</h2>
-          <p>({book.rating})</p>
+          <div className="rating">
+            <img src="https://i.imgur.com/mVp2ecx.png"/>
+            {book.rating}
+          </div>
           <p>Genre:
           {(book.genre) ? (book.genre).map((genre) => (
             <span className="genre-tag">{genre}</span>

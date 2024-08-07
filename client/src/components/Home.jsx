@@ -39,13 +39,13 @@ function Home() {
     <div>
       <header>
         <Header />
-        <Search setSearch={(search) => setSearch(search)} />
       </header>
       <div className="imgbox">
         <Link to={`/details/66b2b5c0d990985b6f4d505e`}>
           <img className="center-fit" src="https://i.imgur.com/EeRWZMh.png" />
         </Link>
       </div>
+      <Search setSearch={(search) => setSearch(search)} />
       <div className="flex-container">
         <div className="flex-child-sort-filter">
           <GenreFilter

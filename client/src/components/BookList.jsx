@@ -17,7 +17,10 @@ function BookList({ books }) {
 								/>
 		      			<p><i>{book.title}</i></p>
 		            <p>by {book.author}</p>
-		      			<p>{book.rating}</p>
+		      			<div className="rating">
+									<img src="https://i.imgur.com/mVp2ecx.png"/>
+									{book.rating}
+								</div>
 							</Link>
 	          </Grid>
 	  			))}

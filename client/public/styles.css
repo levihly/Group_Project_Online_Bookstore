@@ -31,20 +31,20 @@ header {
 
 
 .search-bar {
-  position: relative;
+  text-align: center;
+  margin-top: 25px;
 }
 
 .search-bar input {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 20px;
-  width: 300px; /* Increase the width of the input */
+  width: 500px; /* Increase the width of the input */
   margin: 0 auto; /* Center the input horizontally */
-  padding-left: 30px;
   background-image: url('https://i.imgur.com/3QX5RLc.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  background-size: 5%;
+  background-size: 3%;
   text-align: center;
 }
 
@@ -52,7 +52,7 @@ header {
 /* Footer UI */
 footer {
   text-align: center;
-  padding: 10px;
+  padding-top: 50px;
   margin: 0 auto;
 }
 
@@ -271,4 +271,10 @@ img.book-cover-details {
   margin-left: 5px;
   padding-right: 5px;
   padding-left: 5px;
+}
+
+.rating img {
+  float: left;
+  margin-right: 5px;
+  max-width: 23px;
 }
